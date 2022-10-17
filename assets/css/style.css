@@ -10,18 +10,13 @@
 body {
     width: 100%;
     height: 100vh;
-    overflow: hidden;
-    background-image: 
-    linear-gradient(62deg, rgba(7, 86, 160, 0.973) 13%, rgba(255, 122, 151, 0.5) 4%),
-    linear-gradient(44deg, rgba(0, 43, 99, 0.079) 39%, rgba(242, 140, 143, 0.5) 18%),
-    linear-gradient(118deg, rgba(84, 202, 242, 0.031) 40%, rgba(247, 155, 187, 0.5) 54%),
-    linear-gradient(58deg, rgba(90, 90, 237, 0.161) 83%, rgba(249, 156, 142, 0.5) 23%);
-    background-blend-mode: normal, lighten, multiply, hard-light;
+    overflow: hidden;     
+    background-image: linear-gradient(to right, #fc5c7d, #6a82fb);
 }
 
 ::selection {
     color: #fff;
-    background: #3C87FF;
+    background: #6610f2;
 }
 
 .wrapper {
@@ -52,17 +47,17 @@ body {
     font-size: 18px;
     border-radius: 5px;
     padding: 0 20px 0 53px;
-    border: 1px solid #999;
+    border: 1px solid rgb(70, 70, 71)
 }
 
 .task__input input:focus,
 .task__input input.active {
     padding-left: 52px;
-    border: 2px solid #3C87FF;
+    border: 2px solid #8f8e91;
 }
 
 .task__input input::placeholder {
-    color: #bfbfbf;
+    color: #0e0e0e;
 }
 
 .controls,
@@ -74,13 +69,13 @@ li {
 
 .controls {
     padding: 18px 25px;
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid rgb(254, 254, 254);
 }
 
 .filters span {
     margin: 0 8px;
     font-size: 17px;
-    color: #444444;
+    color: #0e0e0e;
     cursor: pointer;
 }
 
@@ -89,14 +84,13 @@ li {
 }
 
 .filters span.active {
-    color: #3C87FF;
+    color: #0e0e0e;
 }
 
 .controls .clear__btn {
-    border: none;
-    opacity: 0.6;
+    border: none;    
     outline: none;
-    color: #fff;
+    color: #ffffff;
     cursor: pointer;
     font-size: 13px;
     padding: 7px 13px;
@@ -104,7 +98,7 @@ li {
     letter-spacing: 0.3px;
     pointer-events: none;
     transition: transform 0.25s ease;
-    background: linear-gradient(135deg, #1798fb 0%, #2D5CFE 100%);
+    background: #6a82fb;
 }
 
 .clear__btn.active {
@@ -163,7 +157,7 @@ li {
 
 .task label input {
     margin-top: 7px;
-    accent-color: #3C87FF;
+    accent-color: #6610f2;
 }
 
 .task label p {
