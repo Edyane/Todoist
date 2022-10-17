@@ -198,12 +198,12 @@ li {
     transition: transform 0.2s ease;
 }
 
-.task__box .task:last-child .task-menu {
+.task__box .task:last-child .task__menu {
     bottom: 0;
     transform-origin: bottom right;
 }
 
-.task__box .task:first-child .task-menu {
+.task__box .task:first-child .task__menu {
     bottom: -65px;
     transform-origin: top right;
 }
